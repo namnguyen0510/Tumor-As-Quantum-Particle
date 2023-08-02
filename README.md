@@ -33,7 +33,7 @@ We give some comparisons between QNNs to some model architecture:
 \end{enumerate}
 
 
-\subsection{Contribution}
+## Contribution
 In this work, we aim to achieve the following goals:
 \begin{enumerate}
     \item Translation of the theoretical model in \textbf{Equation}~\ref{equa:survival} for learning the non-linear dynamics of tumor evolution, discussed in \textbf{Section}~\ref{section:non_linear_tumor}.
