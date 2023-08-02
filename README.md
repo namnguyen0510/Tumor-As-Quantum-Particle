@@ -8,12 +8,10 @@ Quantum computing is a new technology that promises a new way to accelerate or p
 ## Quantum Neural Networks vs. Classical Neural Networks
 A classical neural network is given as a parameterized function
 $$\hat{y} = f_{\bm{\theta}}(X, y);$$ where $X$ is the training input, $y$ is the label and $\hat{y}$ is the predicted values. The transformation of data in the classical model is presented as 
-\begin{equation}
-	\begin{split}
+$\begin{split}
 	f: GL(\mathbb{R}^p) \rightarrow GL(\mathbb{R}^q)\\
 	X_{p=n \times m} \rightarrow X'_{q = n' \times m'}
-	\end{split}
-\end{equation}
+	\end{split}$
 
 Quantum neural networks instead using transformation on the Hilbert vector space $\mathcal{H}$ using these following rotation in Ox, Oy, Oz axis parameterized by $\theta_{ij}$ given by $$R_{\sigma_x}(\bm{\theta}) =  \begin{bmatrix}
 \cos (\bm{\theta}/2) & -i \sin(\bm{\theta}/2)\\
